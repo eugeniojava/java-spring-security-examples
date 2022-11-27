@@ -7,7 +7,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import java.util.Collection;
 
 @AllArgsConstructor
-public final class SecurityUser implements UserDetails {
+public class SecurityUser implements UserDetails {
     private final User user;
 
     @Override

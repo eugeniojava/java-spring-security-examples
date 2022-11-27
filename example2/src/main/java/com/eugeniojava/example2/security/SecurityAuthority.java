@@ -5,7 +5,7 @@ import lombok.AllArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;
 
 @AllArgsConstructor
-public final class SecurityAuthority implements GrantedAuthority {
+public class SecurityAuthority implements GrantedAuthority {
     private final Authority authority;
 
     @Override

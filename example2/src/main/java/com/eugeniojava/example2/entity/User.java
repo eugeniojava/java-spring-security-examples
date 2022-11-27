@@ -20,7 +20,7 @@ import java.util.Set;
 @Table(name = "users")
 @Getter
 @Setter
-public final class User {
+public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")

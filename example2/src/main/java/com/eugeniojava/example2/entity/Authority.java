@@ -17,7 +17,7 @@ import java.util.Set;
 @Table(name = "authorities")
 @Getter
 @Setter
-public final class Authority {
+public class Authority {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
